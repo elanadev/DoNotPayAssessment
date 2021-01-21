@@ -3,9 +3,15 @@ import Column from "./Column";
 
 const Kanban = () => {
   const [lists, setLists] = useState({
-    pending: [{ title: "Item A" }, { title: "Item B" }],
-    inprogress: [{ title: "Item C" }],
-    completed: [{ title: "Item D" }, { title: "Item E" }]
+    pending: [
+      { title: "Item A", body: "Some content" },
+      { title: "Item B", body: "Some stuff" }
+    ],
+    inprogress: [{ title: "Item C", body: "Something or other" }],
+    completed: [
+      { title: "Item D", body: "Essential details" },
+      { title: "Item E", body: "Info you need to know" }
+    ]
   });
 
   return (

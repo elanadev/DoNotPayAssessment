@@ -9,18 +9,38 @@
 }
 
 #pending {
-  background-color: salmon;
+  background-color: gold;
 }
 
 #inprogress {
-  background-color: yellow;
+  background-color: cornflowerblue;
 }
 
 #completed {
-  background-color: green;
+  background-color: mediumseagreen;
 }
 
 .cardList {
   list-style: none;
   padding: 0;
+}
+
+div li {
+  background-color: white;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+div li h4 {
+  margin: 0;
+}
+
+button {
+  width: 80%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 2em;
 }
