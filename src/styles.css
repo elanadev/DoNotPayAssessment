@@ -2,3 +2,25 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#pending {
+  background-color: salmon;
+}
+
+#inprogress {
+  background-color: yellow;
+}
+
+#completed {
+  background-color: green;
+}
+
+.cardList {
+  list-style: none;
+  padding: 0;
+}
